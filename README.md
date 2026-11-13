@@ -58,10 +58,13 @@ cd treehacks && python graphcast_geoengineering.py --help   # run seeding interv
 ```
 
 ```bash
-# Dashboard
+# Dashboard (Node.js 24 and pnpm 10.13.1)
 cd climate-intervention-dashboard
-pnpm install && pnpm dev
+pnpm install --frozen-lockfile
+pnpm dev
 ```
+
+Run `pnpm lint`, `pnpm typecheck`, and `pnpm build` from the dashboard directory before deploying.
 
 ## Built with
 

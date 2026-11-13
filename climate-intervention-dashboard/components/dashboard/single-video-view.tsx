@@ -7,11 +7,10 @@ import { Button } from "@/components/ui/button"
 interface SingleVideoViewProps {
   src: string
   strategyName: string
-  modelName: string
   playbackRate?: number
 }
 
-export function SingleVideoView({ src, strategyName, modelName, playbackRate = 1 }: SingleVideoViewProps) {
+export function SingleVideoView({ src, strategyName, playbackRate = 1 }: SingleVideoViewProps) {
   const videoRef = useRef<HTMLVideoElement>(null)
   const [isPlaying, setIsPlaying] = useState(true)
 

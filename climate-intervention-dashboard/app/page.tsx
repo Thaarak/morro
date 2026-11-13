@@ -258,7 +258,6 @@ export default function DashboardPage() {
                 <SingleVideoView
                   src="/videos/control_forecast_katrina.mp4"
                   strategyName="Katrina Control"
-                  modelName="Earth2Studio"
                   playbackRate={0.25}
                 />
               </>
@@ -271,7 +270,6 @@ export default function DashboardPage() {
                 <SingleVideoView
                   src="/videos/seeded_forecast_katrina.mp4"
                   strategyName="Katrina Seeded"
-                  modelName="Earth2Studio"
                   playbackRate={0.25}
                 />
               </>
@@ -292,7 +290,6 @@ export default function DashboardPage() {
               <SingleVideoView
                 src={getGraphcastVideoSrc()!}
                 strategyName={current.name}
-                modelName="GraphCast"
               />
             </>
           ) : (

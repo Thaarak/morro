@@ -6,5 +6,6 @@ __pycache__/
 !.env.example
 node_modules/
 .next/
+.vercel/
 # forecast outputs
 predictions_*.nc
