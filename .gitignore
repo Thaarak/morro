@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env*
+!.env.example
+node_modules/
+.next/
+# forecast outputs
+predictions_*.nc
